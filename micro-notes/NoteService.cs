@@ -1,21 +1,22 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace micro_notes {
     public class NoteService : INoteService {
         public void AddNote(Note note) {
-            throw new System.NotImplementedException();
+            NotesDAO.Instance.Notes.Add(note);
         }
 
         public ICollection<Note> GetNotes() {
-            throw new System.NotImplementedException();
+            return NotesDAO.Instance.Notes;
         }
 
         public void UpdateNote(int noteNumber, Note note) {
-            throw new System.NotImplementedException();
+            NotesDAO.Instance.Notes[noteNumber] = note;
         }
 
         public void RemoveNote(int noteNumber) {
-            throw new System.NotImplementedException();
+            NotesDAO.Instance.Notes.RemoveAt(noteNumber);
         }
     }
 }

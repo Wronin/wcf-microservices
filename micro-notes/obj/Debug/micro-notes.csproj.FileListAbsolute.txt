@@ -1,0 +1,9 @@
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\bin\Debug\micro_notes.exe
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\bin\Debug\micro_notes.pdb
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\bin\Debug\System.ServiceModel.Primitives.dll
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csprojAssemblyReference.cache
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.CoreCompileInputs.cache
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.exe
+C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.pdb
