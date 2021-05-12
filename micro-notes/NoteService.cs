@@ -3,11 +3,16 @@ using System.Linq;
 
 namespace micro_notes {
     public class NoteService : INoteService {
-        public void AddNote(Note note) {
+        public void AddNote(string theme, string text) {
+            Note note = new Note(theme, text);
+            NotesDAO.Instance.Notes.Add(note);
+        }
+        public void AddNote1(Note note)
+        {
             NotesDAO.Instance.Notes.Add(note);
         }
 
-        public ICollection<Note> GetNotes() {
+        public List<Note> GetNotes() {
             return NotesDAO.Instance.Notes;
         }
 

@@ -7,3 +7,14 @@ C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.C
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.exe
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.pdb
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.exe.config
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.exe
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.pdb
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csprojAssemblyReference.cache
+C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csproj.CoreCompileInputs.cache
+C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
+C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro_notes.exe
+C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro_notes.pdb
