@@ -46,6 +46,8 @@
     <ItemGroup>
         <Compile Include="INoteService.cs" />
         <Compile Include="Note.cs" />
+        <Compile Include="NotesDAO.cs" />
+        <Compile Include="NoteService.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

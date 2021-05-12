@@ -9,7 +9,7 @@ namespace micro_notes {
         [OperationContract]
         ICollection<Note> GetNotes();
         [OperationContract]
-        void UpdateNote(int noteNumber);
+        void UpdateNote(int noteNumber, Note note);
         [OperationContract]
         void RemoveNote(int noteNumber);
     }
