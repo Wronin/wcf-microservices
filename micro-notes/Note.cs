@@ -28,5 +28,9 @@ namespace micro_notes {
             _theme = theme;
             _text = text;
         }
+
+        public override string ToString() {
+            return $"--{_creationDate}--\n[{_theme}]\n{_text}";
+        }
     }
 }
