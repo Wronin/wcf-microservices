@@ -2,7 +2,7 @@
 using System.ServiceModel;
 using System.Runtime.Serialization;
 
-namespace Client
+namespace Core
 {
     [DataContract]
     public class Note
