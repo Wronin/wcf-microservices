@@ -1,0 +1,10 @@
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\bin\Debug\Core.exe.config
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\bin\Debug\Core.exe
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\bin\Debug\Core.pdb
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\bin\Debug\System.ServiceModel.Primitives.dll
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\obj\Debug\Core.csproj.CopyComplete
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\obj\Debug\Core.exe
+C:\labs\Semestr 4\PaAPS\microserivces\Core\Core\obj\Debug\Core.pdb
