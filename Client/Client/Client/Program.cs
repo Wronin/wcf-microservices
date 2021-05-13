@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ServiceModel;
 using System.Threading.Tasks;
+using micro_notes;
 
 namespace Client
 {
@@ -33,7 +34,12 @@ namespace Client
                             Console.WriteLine("Введите содержание записи");
                             String text = Console.ReadLine();
 
-                            service.AddNote(new Note(theme, text));
+                            Note note = new Note();
+                            note.CreatingDate = DateTime.Now;
+                            note.Theme = theme;
+                            note.Text = text;
+
+                            service.AddNote(note);
                         }
                         break;
                     case 2:
@@ -63,10 +69,10 @@ namespace Client
                             ICollection<Note> notes = service.GetNotes();
                             if (notes.Count != 0)
                             {
-                                foreach (Note note in notes)
+                                foreach (Note n in notes)
                                 {
                                     Console.Write(i++ + ". ");
-                                    Console.WriteLine(note.ToString());
+                                    Console.WriteLine(n.ToString());
                                 }
                                 Console.WriteLine("Введите номер записи, которую хотите изменить");
                                 int noteNumber = Convert.ToInt32(Console.ReadLine());
@@ -77,7 +83,12 @@ namespace Client
                                 Console.WriteLine("Введите содержание записи");
                                 String text = Console.ReadLine();
 
-                                service.UpdateNote(noteNumber, new Note(theme, text));
+                                Note note = new Note();
+                                note.CreatingDate = DateTime.Now;
+                                note.Theme = theme;
+                                note.Text = text;
+                                
+                                service.UpdateNote(noteNumber, note);
                             }
                             else
                             {
