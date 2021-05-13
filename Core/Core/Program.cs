@@ -17,7 +17,7 @@ namespace Core
             // note.Theme = "theme";
             // note.CreatingDate = DateTime.Now;
             // service.AddNote(note);
-            ServiceHost host = new ServiceHost(typeof(Service), new Uri("http://localhost:1337/"));
+            ServiceHost host = new ServiceHost(typeof(Service), new Uri("http://localhost:1338/"));
             host.AddServiceEndpoint(typeof(INoteService), new BasicHttpBinding(), "");
             
             

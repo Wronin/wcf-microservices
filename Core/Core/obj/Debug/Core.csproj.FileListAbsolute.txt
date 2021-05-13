@@ -1,0 +1,10 @@
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\bin\Debug\Core.exe.config
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\bin\Debug\Core.exe
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\bin\Debug\Core.pdb
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\bin\Debug\System.ServiceModel.Primitives.dll
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\bin\Debug\System.ServiceModel.Primitives.pdb
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\obj\Debug\Core.csprojAssemblyReference.cache
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\obj\Debug\Core.csproj.CopyComplete
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\obj\Debug\Core.exe
+D:\Lessons\arch\pract\wcf-microservices\Core\Core\obj\Debug\Core.pdb

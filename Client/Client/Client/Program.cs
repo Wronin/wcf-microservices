@@ -12,7 +12,7 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            Uri tcpUri = new Uri("http://localhost:1337/");
+            Uri tcpUri = new Uri("http://localhost:1338/");
             EndpointAddress address = new EndpointAddress(tcpUri);
             BasicHttpBinding binding = new BasicHttpBinding();
             ChannelFactory<INoteService> factory = new ChannelFactory<INoteService>(binding, address);
