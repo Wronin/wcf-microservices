@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using micro_note;
+using System.Collections.Generic;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 

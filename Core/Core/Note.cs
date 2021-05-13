@@ -2,7 +2,7 @@
 using System.ServiceModel;
 using System.Runtime.Serialization;
 
-namespace Core
+namespace micro_note
 {
     [DataContract]
     public class Note
