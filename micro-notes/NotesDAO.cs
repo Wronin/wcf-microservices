@@ -15,7 +15,7 @@ namespace micro_notes {
             }
         }
 
-        private List<Note> _notes;
+        private ICollection<Note> _notes;
 
         public List<Note> Notes {
             get => _notes as List<Note>;

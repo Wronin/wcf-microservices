@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using System.ServiceModel.Channels;
-using micro_note;
+using micro_notes;
 
 namespace Core
 {
@@ -23,7 +22,7 @@ namespace Core
 
         }
 
-        public List<Note> GetNotes()
+        public ICollection<Note> GetNotes()
         {
             Uri tcpUri = new Uri("http://localhost:25565/note-service");
             EndpointAddress address = new EndpointAddress(tcpUri);

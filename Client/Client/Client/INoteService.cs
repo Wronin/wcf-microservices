@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using micro_note;
+using micro_notes;
 
 namespace Client
 {
@@ -14,7 +14,7 @@ namespace Client
         [OperationContract]
         void AddNote(Note note);
         [OperationContract]
-        List<Note> GetNotes();
+        ICollection<Note> GetNotes();
         [OperationContract]
         void UpdateNote(int noteNumber, Note note);
         [OperationContract]

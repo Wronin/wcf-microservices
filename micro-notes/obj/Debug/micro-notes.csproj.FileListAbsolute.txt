@@ -7,25 +7,12 @@ C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.C
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.exe
 C:\labs\Semestr 4\PaAPS\microserivces\micro-notes\obj\Debug\micro_notes.pdb
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.exe.config
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.exe
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\micro_notes.pdb
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.Runtime.Serialization.Primitives.dll
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.ServiceModel.Primitives.dll
-C:\Users\sgola\Desktop\asdasd\micro-notes\bin\Debug\System.ServiceModel.Primitives.pdb
-C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csprojAssemblyReference.cache
-C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csproj.CoreCompileInputs.cache
-C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
-C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro_notes.exe
-C:\Users\sgola\Desktop\asdasd\micro-notes\obj\Debug\micro_notes.pdb
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\micro_notes.exe.config
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\micro_notes.exe
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\micro_notes.pdb
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\System.Runtime.Serialization.Primitives.dll
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\System.ServiceModel.Primitives.dll
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\bin\Debug\System.ServiceModel.Primitives.pdb
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\obj\Debug\micro-notes.csprojAssemblyReference.cache
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\obj\Debug\micro-notes.csproj.CoreCompileInputs.cache
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\obj\Debug\micro_notes.exe
-D:\Lessons\arch\pract\wcf-microservices\micro-notes\obj\Debug\micro_notes.pdb
+C:\labs\Semestr 4\PaAPS\micro-notes\bin\Debug\micro_notes.exe
+C:\labs\Semestr 4\PaAPS\micro-notes\bin\Debug\micro_notes.pdb
+C:\labs\Semestr 4\PaAPS\micro-notes\bin\Debug\System.ServiceModel.Primitives.dll
+C:\labs\Semestr 4\PaAPS\micro-notes\bin\Debug\System.ServiceModel.Primitives.pdb
+C:\labs\Semestr 4\PaAPS\micro-notes\obj\Debug\micro-notes.csprojAssemblyReference.cache
+C:\labs\Semestr 4\PaAPS\micro-notes\obj\Debug\micro-notes.csproj.CoreCompileInputs.cache
+C:\labs\Semestr 4\PaAPS\micro-notes\obj\Debug\micro-notes.csproj.CopyComplete
+C:\labs\Semestr 4\PaAPS\micro-notes\obj\Debug\micro_notes.exe
+C:\labs\Semestr 4\PaAPS\micro-notes\obj\Debug\micro_notes.pdb

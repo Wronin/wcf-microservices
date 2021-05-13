@@ -7,7 +7,7 @@ namespace micro_notes {
             NotesDAO.Instance.Notes.Add(note);
         }
 
-        public List<Note> GetNotes() {
+        public ICollection<Note> GetNotes() {
             return NotesDAO.Instance.Notes;
         }
 

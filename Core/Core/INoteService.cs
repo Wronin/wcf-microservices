@@ -1,7 +1,10 @@
-﻿using micro_note;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.ServiceModel;
-using System.ServiceModel.Channels;
+using micro_notes;
 
 namespace Core
 {
@@ -11,7 +14,7 @@ namespace Core
         [OperationContract]
         void AddNote(Note note);
         [OperationContract]
-        List<Note> GetNotes();
+        ICollection<Note> GetNotes();
         [OperationContract]
         void UpdateNote(int noteNumber, Note note);
         [OperationContract]
