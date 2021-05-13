@@ -1,7 +1,5 @@
-.idea
+*.idea
 *.vs/
 *.user
 .obj/
-*obj/
-bin/
-*.cache
+*bin/
