@@ -5,9 +5,7 @@ namespace micro_notes {
     [ServiceContract]
     public interface INoteService {
         [OperationContract]
-        void AddNote(string theme, string text);
-        [OperationContract]
-        void AddNote1(Note note);
+        void AddNote(Note note);
         [OperationContract]
         List<Note> GetNotes();
         [OperationContract]

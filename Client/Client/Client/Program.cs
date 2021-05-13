@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ServiceModel;
 using System.Threading.Tasks;
+using System.ServiceModel.Channels;
 
 namespace Client
 {
@@ -12,9 +13,7 @@ namespace Client
     public interface INoteService
     {
         [OperationContract]
-        void AddNote(string theme, string text);
-        [OperationContract]
-        void AddNote1(Note note);
+        void AddNote(Note note);
         [OperationContract]
         List<Note> GetNotes();
         [OperationContract]
@@ -49,10 +48,11 @@ namespace Client
                             Console.WriteLine("Введите содержание записи");
                             String text = Console.ReadLine();
 
-                            Note newNote = new Note(theme, text);
-
-                            service.AddNote1(newNote);
-                            /*service.AddNote(theme, text);*/
+                            Note newNote = new Note();
+                            newNote.CreatingDate = DateTime.Now;
+                            newNote.Theme = theme;
+                            newNote.Text = text;
+                            service.AddNote(newNote);
                         }
                         break;
                     case 2:
@@ -96,7 +96,11 @@ namespace Client
                                 Console.WriteLine("Введите содержание записи");
                                 String text = Console.ReadLine();
 
-                                service.UpdateNote(noteNumber, new Note(theme, text));
+                                Note newNote = new Note();
+                                newNote.CreatingDate = DateTime.Now;
+                                newNote.Theme = theme;
+                                newNote.Text = text;
+                                service.UpdateNote(noteNumber, newNote);
                             }
                             else
                             {
@@ -109,18 +113,18 @@ namespace Client
                         {
                             int i = 0;
                             List<Note> notes = service.GetNotes();
-                            /*if (notes.Count != 0)
-                            {*/
+                            if (notes.Count != 0)
+                            {
                                 foreach (Note note in notes)
                                 {
                                     Console.Write(i++ + ". ");
                                     Console.WriteLine(note.ToString());
                                 }
-                            /*}
+                            }
                             else
                             {
                                 Console.WriteLine("Записей нет");
-                            }*/
+                            }
                         }
                         break;
                     default:

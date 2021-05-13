@@ -18,3 +18,13 @@ C:\Users\sgola\Desktop\asdasd\Client\Client\Client\obj\Debug\Client.csproj.CoreC
 C:\Users\sgola\Desktop\asdasd\Client\Client\Client\obj\Debug\Client.csproj.CopyComplete
 C:\Users\sgola\Desktop\asdasd\Client\Client\Client\obj\Debug\Client.exe
 C:\Users\sgola\Desktop\asdasd\Client\Client\Client\obj\Debug\Client.pdb
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\bin\Debug\Client.exe.config
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\bin\Debug\Client.exe
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\bin\Debug\Client.pdb
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\bin\Debug\System.ServiceModel.Primitives.dll
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\bin\Debug\System.ServiceModel.Primitives.pdb
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\obj\Debug\Client.csproj.CopyComplete
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\obj\Debug\Client.exe
+D:\Lessons\arch\pract\wcf-microservices\Client\Client\Client\obj\Debug\Client.pdb

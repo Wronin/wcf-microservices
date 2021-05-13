@@ -2,35 +2,23 @@ using System;
 using System.ServiceModel;
 using System.Runtime.Serialization;
 
-namespace micro_notes {
+namespace micro_notes
+{
     [DataContract]
-    public class Note {
+    public class Note
+    {
         [DataMember]
-        private DateTime _creationDate;
-        public DateTime CreatingDate {
-            get => _creationDate;
-        }
-        
-        [DataMember]
-        private string _theme;
-        public string Theme {
-            get => _theme;
-        }
-        
-        [DataMember]
-        private string _text;
-        public string Text {
-            get => _text;
-        }
+        public DateTime CreatingDate { get; set; }
 
-        public Note(string theme, string text) {
-            _creationDate = DateTime.Now;
-            _theme = theme;
-            _text = text;
-        }
+        [DataMember]
+        public string Theme { get; set; }
 
-        public override string ToString() {
-            return $"--{_creationDate}--\n[{_theme}]\n{_text}";
+        [DataMember]
+        public string Text { get; set; }
+
+        public override string ToString()
+        {
+            return $"--{CreatingDate}--\n[{Theme}]\n{Text}";
         }
     }
 }
